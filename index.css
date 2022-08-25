@@ -1,0 +1,93 @@
+.container{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: rgb(190, 201, 201);
+}
+.first{
+    width: 75vw;
+}
+.first input{
+    width: 97.5%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid rgb(231, 16, 16);
+}
+.first button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(10, 10, 10);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: white;
+      border: 2px solid rgb(231, 16, 16);
+}
+.second{
+    width: 75vw;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(231, 16, 16);
+}
+tr{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 10px 0;
+}
+th{
+    font-size: 25px;
+}
+tr:nth-child(even){
+    background-color: rgb(81, 94, 81);
+    color: rgb(241, 241, 241);
+    border: 2px solid red;
+}
+td{
+    padding: 20px 0;
+      border: 2px solid red;
+}
+td a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+@media(max-width:540px){
+  .container{
+    display: grid;
+    place-items:center;
+    width: 100%;
+    background-color: rgb(252, 249, 249);
+  }
+  .second{
+    display: grid;
+    position: relative;
+    width: 100%;
+  }
+  .first{
+    width:100%;
+    /* place-items: center; */
+
+  }
+  .first input{
+    width: 95%;
+    justify-items: center;
+  }
+  .first button{
+    width: 98%;
+  }
+  #table{
+    justify-items: center;
+    margin-right: 8px;
+    width: 90%;
+    font-size: 20px;
+  }
+  a{
+    font-size: 25px;
+  }
+
+
+}
